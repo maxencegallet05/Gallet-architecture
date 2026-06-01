@@ -93,6 +93,13 @@ img {
     padding: 0 var(--space-md);
 }
 
+/* Extra margin safety on smartphones to prevent text from touching screen edges */
+@media (max-width: 576px) {
+    .container {
+        padding: 0 1.5rem !important;
+    }
+}
+
 .grid {
     display: grid;
     gap: var(--space-md);
