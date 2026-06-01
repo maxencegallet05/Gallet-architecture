@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet | GALLET ARCHITECTES</title>
+    <meta name="description" content="Découvrez en détail l'un de nos projets d'architecture bas carbone, bioclimatique et respectueux de l'environnement.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="detail-page-body">
+
+    <header id="main-header" class="scrolled">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">GALLET<span>ARCHITECTES</span></a>
+            <button id="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="projet.html" class="active">Projets</a></li>
+                    <li><a href="actualites.html">Actualités</a></li>
+                    <li><a href="agence.html">L'Agence</a></li>
+                    <li><a href="distinctions.html">Distinctions</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="project-detail-render" style="padding-top: 130px; min-height: 80vh;">
+        <!-- Dynamic Content loaded from script.js & data.js -->
+        <div class="container loading-placeholder" style="padding: 100px 0; text-align: center; color: var(--text-muted);">
+            <div class="spinner" style="width: 40px; height: 40px; border: 3px solid var(--gray-light); border-top-color: var(--accent); border-radius: 50%; margin: 0 auto var(--space-sm) auto; animation: spin 1s linear infinite;"></div>
+            <p style="font-family: var(--font-heading); font-size: 1.1rem; letter-spacing: 1px;">Chargement du projet...</p>
+        </div>
+    </main>
+
+    <footer style="background: var(--primary-charcoal); color: white; padding: var(--space-xl) 0 var(--space-md); border-top: 1px solid rgba(255, 255, 255, 0.05);">
+        <div class="container grid" style="grid-template-columns: 2fr 1fr 1fr; gap: var(--space-lg);">
+            <div>
+                <h3 class="logo" style="margin-bottom: var(--space-sm); color: white;">GALLET<span>ARCHITECTES</span></h3>
+                <p style="font-size: 0.9rem; opacity: 0.7; max-width: 450px; line-height: 1.8;">
+                    Architecture / Paysage / Environnement. Conception bioclimatique d'excellence et construction en matériaux naturels, biosourcés et locaux depuis 2007.
+                </p>
+            </div>
+            <div>
+                <h4 style="margin-bottom: var(--space-sm); text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; font-family: var(--font-heading); font-weight: 700; color: var(--accent-light);">Navigation</h4>
+                <ul style="font-size: 0.9rem; opacity: 0.8; line-height: 2.2;">
+                    <li><a href="index.html" style="transition: var(--transition-fast);">Accueil</a></li>
+                    <li><a href="projet.html" style="transition: var(--transition-fast);">Projets</a></li>
+                    <li><a href="actualites.html" style="transition: var(--transition-fast);">Actualités</a></li>
+                    <li><a href="agence.html" style="transition: var(--transition-fast);">L'Agence</a></li>
+                    <li><a href="distinctions.html" style="transition: var(--transition-fast);">Distinctions</a></li>
+                    <li><a href="index.html#contact" style="transition: var(--transition-fast);">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="margin-bottom: var(--space-sm); text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; font-family: var(--font-heading); font-weight: 700; color: var(--accent-light);">Contact</h4>
+                <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 0.5rem;">Lyon, France</p>
+                <a href="mailto:contact@gallet-architectes.fr" style="font-size: 0.9rem; opacity: 0.8; display: block; border-bottom: 1px dashed rgba(255,255,255,0.2); width: max-content; transition: var(--transition-fast);" onmouseover="this.style.borderColor='var(--accent-light)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.2)'">contact@gallet-architectes.fr</a>
+                <div id="social-icons-container" style="margin-top: var(--space-md); display: flex; gap: var(--space-sm);"></div>
+            </div>
+        </div>
+        <div class="container" style="margin-top: var(--space-xl); padding-top: var(--space-md); border-top: 1px solid rgba(255,255,255,0.05); font-size: 0.75rem; opacity: 0.5; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+            <p>&copy; 2026 GALLET ARCHITECTES. Tous droits réservés.</p>
+            <p style="font-style: italic;">Conçu avec soin pour une architecture responsable.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
