@@ -7,17 +7,17 @@ window.projectsData = [
         category: "habitat",
         location: "Lyon, Rhône",
         year: "2021",
-        image: "image/log-collect/log(1).jpg",
+        image: "image/log-collect/log (1).jpg",
         images: [
-            "image/log-collect/log(1).jpg",
-            "image/log-collect/log(2).jpg",
-            "image/log-collect/log(3).jpg",
-            "image/log-collect/log(4).jpg",
-            "image/log-collect/log(5).jpg",
-            "image/log-collect/log(6).jpg",
-            "image/log-collect/log(7).jpg",
-            "image/log-collect/log(8).jpg",
-            "image/log-collect/log(9).jpg"
+            "image/log-collect/log (1).jpg",
+            "image/log-collect/log (2).jpg",
+            "image/log-collect/log (3).jpg",
+            "image/log-collect/log (4).jpg",
+            "image/log-collect/log (5).jpg",
+            "image/log-collect/log (6).jpg",
+            "image/log-collect/log (7).jpg",
+            "image/log-collect/log (8).jpg",
+            "image/log-collect/log (9).jpg"
         ],
         description: "Ensemble résidentiel en bois et paille.",
         details: {
@@ -864,15 +864,15 @@ window.projectsData = [
         category: "habitat",
         location: "Chaponost 69",
         year: "????",
-        image: "image/miot/MIOT(1).jpg",
+        image: "image/miot/MIOT (1).jpg",
         images: [
-            "image/miot/MIOT(1).jpg",
-            "image/miot/MIOT(2).jpg",
-            "image/miot/MIOT(3).jpg",
-            "image/miot/MIOT(4).jpg",
-            "image/miot/MIOT(5).jpg",
-            "image/miot/MIOT(6).jpg",
-            "image/miot/MIOT(7).jpg"
+            "image/miot/MIOT (1).jpg",
+            "image/miot/MIOT (2).jpg",
+            "image/miot/MIOT (3).jpg",
+            "image/miot/MIOT (4).jpg",
+            "image/miot/MIOT (5).jpg",
+            "image/miot/MIOT (6).jpg",
+            "image/miot/MIOT (7).jpg"
         ],
         description: "",
         details: {
